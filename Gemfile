@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 gem 'rails',      '6.0.2.1'
+gem 'jquery-rails'
+gem 'jquery-ui-rails'
 gem 'bcrypt',     '3.1.11'
 gem 'bootstrap-sass', '3.3.6'
 gem 'puma',       '3.12.2'
